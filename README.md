@@ -5,7 +5,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 To use this boilerplate template:
 
 ```bash
-npx create next-app -e https://github.com/andysteel/boilerplate-next-react
+npx create-next-app -e https://github.com/andysteel/boilerplate-next-react new-name-app
+```
+
+Change the name of the project in the files: README.md, package.json, package-lock.json, _app.tsx, manifest.json
+
+Clear all the Main component an put just a h1 tag, the test file from Main component must have only the first test with the text edited in h1 from the component.
+
+Delete the __snapshot__ folder.
+
+Execute:
+
+```bash
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
