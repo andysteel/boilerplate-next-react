@@ -2,12 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+To use this boilerplate template:
 
 ```bash
-npm run dev
-# or
-yarn dev
+npx create next-app -e https://github.com/andysteel/boilerplate-next-react
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
